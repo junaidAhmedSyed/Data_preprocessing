@@ -1,0 +1,18 @@
+# Example configuration file for Streamlit secrets
+# Copy this to .streamlit/secrets.toml and fill in your actual values
+
+[snowflake]
+account = "your-account-identifier"
+username = "your-username" 
+password = "your-password"
+warehouse = "your-warehouse"
+database = "your-database"
+schema = "your-schema"
+
+# Alternative: You can also use environment variables
+# SNOWFLAKE_ACCOUNT = "your-account-identifier"
+# SNOWFLAKE_USERNAME = "your-username"
+# SNOWFLAKE_PASSWORD = "your-password"
+# SNOWFLAKE_WAREHOUSE = "your-warehouse"
+# SNOWFLAKE_DATABASE = "your-database"
+# SNOWFLAKE_SCHEMA = "your-schema"
